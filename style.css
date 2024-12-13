@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+/* Code Converter */
+.container-converter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 0 5px 15px #222;
+  text-align: center;
+}
+
+.container-converter h3 {
+  margin-top: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.container-converter span {
+  color: tomato;
+}
+
+.container-input input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e3e3e3;
+  font-weight: normal;
+  outline: none;
+  cursor: pointer;
+}
+
+.container-input input:focus {
+  background-color: #eee;
+}
+
+.container-input label {
+  font-size: 13px;
+}
+
+.container-input select {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.container-input textarea {
+  width: calc(100% - 20px);
+  border: none;
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #e3e3e3;
+  cursor: pointer;
+  outline: none;
+}
+
+.container-converter button {
+  width: 100px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.container-converter button:active {
+  background-color: #ddd;
+}

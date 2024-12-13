@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Code Converter -->
+  <div class="container-converter">
+    <h3>Code <span>Converter</span></h3>
+    <div class="container-input">
+      <input type="text"
+      id="text"
+      placeholder="Enter Text">
+      <label for="choose">Choose:</label>
+      <select id="option">
+        <option value="uppercase">Upper Case</option>
+        <option value="lowercase">Lower Case</option>
+        <option value="length">Length</option>
+        <option value="repeat">Repeat</option>
+      </select>
+      <textarea 
+      rows="8"
+      cols="30"
+      id="message"
+      placeholder="Convert Text"
+      readonly="true"></textarea>
+    </div>
+    <button onclick="convert()">Convert</button>
+    <button onclick="copyOutput()">Copy</button>
+  </div>
+  
+  <!-- javascript -->
+  <script src="script.js"></script>
+  
+</body>
+</html>
